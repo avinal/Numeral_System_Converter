@@ -11,14 +11,15 @@ public class Main {
             in.nextLine();
             String source = in.nextLine();
             int radix = in.nextInt();
-            if(radix<=0 || radix>36){
+            if (radix <= 0 || radix > 36) {
                 throw new NumberFormatException("error");
             }
             System.out.println(toBase(toDecimal(source, rads), radix));
         } catch (Exception e) {
             System.out.println("error");
+            in.close();
         }
-
+        in.close();
     }
 
     public static String toDecimal(String num, int radix) {
