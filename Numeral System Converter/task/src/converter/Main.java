@@ -5,7 +5,8 @@ import java.util.Scanner;
 /**
  * @author Avinal Kumar
  * @since May 10th, 2020
- * We’re all quite used to our good old decimal system of numerals. But let’s
+ * <br>
+ * We are all quite used to our good old decimal system of numerals. But let's
  * not forget that there are countless other ways to count! Whether we convert numbers
  * from one system to another just for fun or to store large data more efficiently,
  * a converter would be helpful. In this project I created a mathematical helper
@@ -42,7 +43,7 @@ public class Main {
      * @return Converted Decimal Number string.
      * @see java.lang.Integer#parseInt(String, int)
      * @see java.lang.Integer#toString(int, int)
-     * @see java.lang.String#split(String)
+     * @see java.lang.String#split(String) split
      */
     public static String toDecimal(String num, int radix) {
         String[] parts;
